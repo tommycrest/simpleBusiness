@@ -1,0 +1,42 @@
+/**
+	cornershop.css: 
+	Custom css for your small business, customizable 
+	Created by Crestanello Tommy 2018
+*/
+body {
+  padding-top: 54px;
+}
+
+@media (min-width: 992px) {
+  body {
+    padding-top: 56px;
+  }
+}
+
+.text-custom {
+	color:rgba(0,0,0,.5);
+}
+
+.btn-primary {
+    color:rgba(0,0,0,.5);
+    background-color: #e3f2fd;
+    border-color: #e3f2fd;
+}
+
+.card-custom {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+}
+
+.starter-template {
+	padding-top: 3rem;
+	text-align: center;
+	margin: 0 auto;
+}
